@@ -32,6 +32,7 @@ function App() {
     //because it will deal with filtering and showing only the favourites list
   };
 
+  //because this toggle function will update the list of favourite recipes//
   const handleFavouriteToggle  = (id) => {
     const updatedRecipes = recipes.map(recipe => {
       if (recipe.id === id) {
@@ -66,3 +67,9 @@ function App() {
 }
 
 export default App;
+
+/* References: 
+PedroTech, 26 May 2021, YouTube. <https://youtu.be/QwarZBtFoFA?si=M0Cxy0p5jqGI2SJ->. Accessed: 14 April 2024.
+React.dev. Online. <https://react.dev/learn>. Accesseded: 14 April 2024.
+OpenAI.Online. <https://openai.com/>.Prompt: "react router-dom". Accessed: 18 April 2024.
+Alison. Learn React. Online. <https://alison.com/>. Accessed: 18 April 2024.*/
